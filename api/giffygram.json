@@ -1,0 +1,53 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Jacob Lesniack",
+        "dateJoined": 1630525094654,
+        "email": "jakeyboy33@gmail.com"
+      },
+
+      {
+        "id": 2,
+        "name": "Jacob Lerchniack",
+        "dateJoined": 1630525094654,
+        "email": "jakeybiz34@gmail.com"
+      },
+
+      {
+        "id": 3,
+        "name": "Jacob Largeniack",
+        "dateJoined": 1630525094654,
+        "email": "jakeybot35@gmail.com"
+      },
+
+      {
+        "id": 4,
+        "name": "Jacob Lengthniack",
+        "dateJoined": 1630525094654,
+        "email": "jakeyban36@gmail.com"
+      }
+     
+    ],
+    "posts": [
+        {
+            "id": 2,
+            "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
+            "userId": 6,
+            "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+            "timestamp": 1561695022812,
+            "title": "Enhanced global utilisation"
+        },
+
+        {
+            "id": 2,
+            "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
+            "userId": 6,
+            "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+            "timestamp": 1561695022812,
+            "title": "Enhanced global utilisation"
+        }
+    ]
+  }
+
+
