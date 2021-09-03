@@ -8,6 +8,10 @@
  * Main logic module for what should happen on initial page load for Giffygram
  */
 
+/**
+ * Main logic module for what should happen on initial page load for Giffygram
+ */
+
 /*
     This function performs one, specific task.
 
