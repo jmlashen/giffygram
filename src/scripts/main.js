@@ -1,50 +1,55 @@
-//import { getUsers } from "./dataManager.js";
+import { getPosts, getUsers } from "./data/dataManager.js"
+import { PostList } from "./feed/postList.js"
+import { NavBar } from "./NavBar.js";
+import { Footer } from "./footer/NavFooter.js"
 
-//const allUsers = getUsers().then(apiUsers => {
-//console.log("now we got it", apiUsers)
-//})
-
-/**
- * Main logic module for what should happen on initial page load for Giffygram
- */
-
-/**
- * Main logic module for what should happen on initial page load for Giffygram
- */
-
-/*
-    This function performs one, specific task.
-
-    1. Can you explain what that task is?
-    2. Are you defining the function here or invoking it?
-*/
-import { getPosts } from "./dataManager.js";
-
-const startGiffyGram = (number, string) => {
+const showPostList = () => {
+    //Get a reference to the location on the DOM where the list will display
     const postElement = document.querySelector(".postList");
-	postElement.innerHTML = `Hello Cohort ${number} ${string}`
+    getPosts().then((allPosts) => {
+        postElement.innerHTML = PostList(allPosts);
+    })
 }
-// Are you defining the function here or invoking it?
-startGiffyGram(51, "is the best");
+
+const showNavBar = () => {
+    //Get a reference to the location on the DOM where the nav will display
+    const navElement = document.querySelector("nav");
+    navElement.innerHTML = NavBar();
+}
+
+const showFooter = () => {
+    //Get a reference to the location on the DOM where the nav will display
+    const footerElement = document.querySelector("Footer");
+    footerElement.innerHTML = Footer();
 
 
-// const startPosts = () => {
-//     const postElement = document.querySelector(".postList");
+}
 
-//     getPosts().then(arrayOfPosts => {
-//         for (let post of arrayOfPosts){
+const applicationElement = document.querySelector(".giffygram");
 
-        
-//         let html = `<section class="post">
-//         <header>
-//             <h2 class="post__title">${post.title}</h2>
-//         </header>
-//         <img class="post__image" src="${post.imageURL}" />
-//       </section>`
-//       postElement.innerHTML += html;
-//         }
-//     })
-     
-// }
-// startPosts()
+applicationElement.addEventListener("click", event => {
+    if (event.target.id === "logout") {
+        console.log("You clicked on logout")
+    }
+})
+
+
+//applicationElement.addEventListener("click, handleGiffyClick")
+
+
+
+
+const startGiffyGram = () => {
+    showNavBar();
+    showPostList();
+    showFooter();
+
+}
+
+    startGiffyGram();
+
+
+
+
+
 
