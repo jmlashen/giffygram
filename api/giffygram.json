@@ -31,21 +31,21 @@
     ],
     "posts": [
         {
-            "id": 1,
-            "imageURL": "https://media.giphy.com/media/26BGCIBwdrIJDnbdm/giphy.gif?cid=ecf05e47vlladxz3tw8ashzei47am6tycu7y84flqpsy99mj&rid=giphy.gif&ct=g",
+            "id": 2,
+            "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
             "userId": 6,
             "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
             "timestamp": 1561695022812,
-            "title": "Keepin' a postive attitude!"
+            "title": "Enhanced global utilisation"
         },
 
         {
             "id": 2,
-            "imageURL": "https://media.giphy.com/media/cjl4HpeoRiiFa/giphy.gif?cid=ecf05e47tqzogl02tehq4ky0b50ltibifkk260am6s94ovwd&rid=giphy.gif&ct=g",
+            "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
             "userId": 6,
             "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
             "timestamp": 1561695022812,
-            "title": "Dancin' through the week!"
+            "title": "Enhanced global utilisation"
         }
     ]
   }
