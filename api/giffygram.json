@@ -1,53 +1,87 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Jacob Lesniack",
-        "dateJoined": 1630525094654,
-        "email": "jakeyboy33@gmail.com"
-      },
-
-      {
-        "id": 2,
-        "name": "Jacob Lerchniack",
-        "dateJoined": 1630525094654,
-        "email": "jakeybiz34@gmail.com"
-      },
-
-      {
-        "id": 3,
-        "name": "Jacob Largeniack",
-        "dateJoined": 1630525094654,
-        "email": "jakeybot35@gmail.com"
-      },
-
-      {
-        "id": 4,
-        "name": "Jacob Lengthniack",
-        "dateJoined": 1630525094654,
-        "email": "jakeyban36@gmail.com"
-      }
-     
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "imageURL": "https://media.giphy.com/media/26BGCIBwdrIJDnbdm/giphy.gif?cid=ecf05e47vlladxz3tw8ashzei47am6tycu7y84flqpsy99mj&rid=giphy.gif&ct=g",
-            "userId": 6,
-            "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-            "timestamp": 1561695022812,
-            "title": "Keepin' a postive attitude!"
-        },
-
-        {
-            "id": 2,
-            "imageURL": "https://media.giphy.com/media/cjl4HpeoRiiFa/giphy.gif?cid=ecf05e47tqzogl02tehq4ky0b50ltibifkk260am6s94ovwd&rid=giphy.gif&ct=g",
-            "userId": 6,
-            "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-            "timestamp": 1561695022812,
-            "title": "Dancin' through the week!"
-        }
-    ]
-  }
-
-
+  "users": [
+    {
+      "id": 1,
+      "name": "Jacob Lesniack",
+      "dateJoined": 1630525094654,
+      "email": "jakeyboy33@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Jacob Lerchniack",
+      "dateJoined": 1630525094654,
+      "email": "jakeybiz34@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Jacob Largeniack",
+      "dateJoined": 1630525094654,
+      "email": "jakeybot35@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Jacob Lengthniack",
+      "dateJoined": 1630525094654,
+      "email": "jakeyban36@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "imageURL": "https://media.giphy.com/media/26BGCIBwdrIJDnbdm/giphy.gif?cid=ecf05e47vlladxz3tw8ashzei47am6tycu7y84flqpsy99mj&rid=giphy.gif&ct=g",
+      "userId": 6,
+      "description": "Golfer Tiger Woods similing",
+      "timestamp": 1599587163842,
+      "title": "Keepin' a postive attitude! 2020"
+    },
+    {
+      "id": 2,
+      "imageURL": "https://media.giphy.com/media/cjl4HpeoRiiFa/giphy.gif?cid=ecf05e47tqzogl02tehq4ky0b50ltibifkk260am6s94ovwd&rid=giphy.gif&ct=g",
+      "userId": 7,
+      "description": "David Bryne dancing in a big suit",
+      "timestamp": 1567965800113,
+      "title": "Dancin' through the week! 2019"
+    },
+    {
+      "id": 3,
+      "imageURL": "https://media.giphy.com/media/125RIkH7IluIpy/giphy.gif",
+      "userId": 8,
+      "description": "Wayne Cambell from Wayne's World",
+      "timestamp": 1504893867867,
+      "title": "Party On! 2017"
+    },
+    {
+      "id": 4,
+      "imageURL": "https://media.giphy.com/media/ZDewxgsOL3UDm/giphy.gif",
+      "userId": 9,
+      "description": "Bill Murray & Michael Jordan",
+      "timestamp": 1536429867867,
+      "title": "Bill and Mike 2018"
+    },
+    {
+      "id": 5,
+      "imageURL": "https://media.giphy.com/media/jrVmnE9rGLNsf3n3nj/giphy-downsized-large.gif?cid=ecf05e47too51laxr5af2zrx4zst4e8zpnkv1uualv84illt&rid=giphy-downsized-large.gif&ct=g",
+      "userId": 9,
+      "description": "Woman struggling with garbage cans with a caption of the year 2021 floating around implying she is struggling with the year of 2021",
+      "timestamp": 1631124267867,
+      "title": "2021 is going great.."
+    },
+    {
+      "title": "Coding Cat",
+      "imageURL": "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",
+      "description": "Coding Cat",
+      "userId": 1,
+      "timestamp": 1631129107516,
+      "id": 6
+    },
+    {
+      "title": "We can code this!",
+      "imageURL": "https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif",
+      "description": "",
+      "userId": 1,
+      "timestamp": 1631130232815,
+      "id": 7
+    }
+   
+  ]
+}
