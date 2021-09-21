@@ -11,8 +11,8 @@ body, button, input, select, textarea {
     font-family: "Comfortaa", Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 0;
-    margin: 0;
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,3 +47,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 25%;
 }
 
+ #buttonMove{
+
+    margin-bottom: 50px;
+    
+}
