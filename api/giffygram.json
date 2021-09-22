@@ -23,6 +23,16 @@
       "name": "Jacob Lengthniack",
       "dateJoined": 1630525094654,
       "email": "jakeyban36@gmail.com"
+    },
+    {
+      "name": "Jake Deeds",
+      "email": "jakedeeds@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Jake Dazz",
+      "email": "JakeDazz@gmail.com",
+      "id": 6
     }
   ],
   "posts": [
@@ -41,6 +51,61 @@
       "userId": 1,
       "timestamp": 1631130232815,
       "id": 7
+    },
+    {
+      "title": "Do you remember?",
+      "imageURL": "https://media.giphy.com/media/f8c3iR9TzCCSDyIAsY/giphy.gif?cid=ecf05e47ef79637cf4fcc54502e5c570145079c36f4078dd&rid=giphy.gif&ct=g",
+      "description": "is a month",
+      "userId": 1,
+      "timestamp": 1632234921216,
+      "id": 8
+    }
+  ],
+  "userLikes": [
+    {
+      "postId": 6,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "postId": 8,
+      "userId": 5,
+      "id": 7
+    },
+    {
+      "postId": 7,
+      "userId": 5,
+      "id": 8
+    },
+    {
+      "postId": 6,
+      "userId": 5,
+      "id": 9
+    },
+    {
+      "postId": 8,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "postId": 8,
+      "userId": 5,
+      "id": 11
+    },
+    {
+      "postId": 7,
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "postId": 8,
+      "userId": 5,
+      "id": 13
+    },
+    {
+      "postId": 8,
+      "userId": 2,
+      "id": 14
     }
   ]
 }
