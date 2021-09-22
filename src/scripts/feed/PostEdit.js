@@ -1,5 +1,6 @@
 export const PostEdit = (postObj) => {
 	return `
+	
 	<div class="newPost">
 	<h3>Edit This Post</h3>
 		<div>
